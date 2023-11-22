@@ -1,0 +1,26 @@
+{
+  "name": "guitar-girls-school",
+  "version": "1.0.0",
+  "description": "Aplicación web para una escuela de música",
+  "main": "app.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tephyxp/guitar-girls-school.git"
+  },
+  "author": "Stephanie Zohra Grecia Carolina Gabriela Laura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tephyxp/guitar-girls-school/issues"
+  },
+  "homepage": "https://github.com/tephyxp/guitar-girls-school#readme",
+  "devDependencies": {
+    "@testing-library/dom": "^9.3.3",
+    "@testing-library/jest-dom": "^6.1.4",
+    "jsdom": "^22.1.0",
+    "vite": "^5.0.2",
+    "vitest": "^0.34.6"
+  }
+}
