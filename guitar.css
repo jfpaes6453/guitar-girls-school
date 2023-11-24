@@ -1,17 +1,11 @@
-:root {
-  --noteDotOpacity: 0;
-}
-
-
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: #b3f3e0;
+  background-color: #e5f5f0;
 }
-
 
 .fretboard {
   display: flex;
@@ -59,55 +53,56 @@ body {
   border-image: linear-gradient(to left, #bbb, #fff, #bbb) 1 100%;
 }
 
-}
 .note-fret:before {
-    content: attr(data-note);
-    width: 33px;
-    height: 33px;
-    border-radius: 50%;
-    line-height: 33px;
-    text-align:  center;
-    background: darkblue;
-    z-index: 2;
-    color: #eee;
-    opacity: var(--noteDotOpacity);
+  content: attr(data-note);
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  line-height: 33px;
+  text-align: center;
+  background: #265073;
+  z-index: 2;
+  color: #eee;
+  opacity: var(--noteDotOpacity);
 }
 
-.single-fretmark:after, .double-fretmark:before, .double-fretmark:after {
-    content: "";
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    background: #161717;
+.single-fretmark:after,
+.double-fretmark:before,
+.double-fretmark:after {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #161717;
 }
 
 .single-fretmark:after {
-    top: calc(var(--fretboard-height) / 2 * 1px);
-    transform: translate(0, -50%);
+  top: calc(var(--fretboard-height) / 2 * 1px);
+  transform: translate(0, -50%);
 }
 
 .double-fretmark:before {
-    top: calc(var(--double-fretmark-position-1) * 1px);
-    transform: translate(-140%, -50%);
+  top: calc(var(--double-fretmark-position-1) * 1px);
+  transform: translate(-140%, -50%);
 }
 .double-fretmark:after {
-    top: calc(var(--double-fretmark-position-2) * 1px);
-    transform: translate(-140%, -50%);
+  top: calc(var(--double-fretmark-position-2) * 1px);
+  transform: translate(-140%, -50%);
 }
 
 .note-name-section {
-    width: 100%;
-    color: #fff;
-    font-weight: 100;
-    font-size: 2.5em;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  color: #fff;
+  font-weight: 100;
+  font-size: 2.5em;
+  display: flex;
+  justify-content: center;
 }
 .note-name-section span {
-    padding: 10px;
-    cursor: pointer;
+  padding: 10px;
+  cursor: pointer;
 }
 .note-name-section span:hover {
-    color: #00baba;
+  color: #00baba;
 }
