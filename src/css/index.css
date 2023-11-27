@@ -1,0 +1,11 @@
+@import "/src/css/components/style-header.css";
+@import "/src/css/components/style-footer.css";
+
+.main-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 6rem auto;
+  justify-content: center;
+}
+

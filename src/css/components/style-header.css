@@ -1,0 +1,51 @@
+.header-nav {
+  height: 6rem;
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+.header-links{
+color: var(--color-secondary);
+}
+
+.header-links:hover {
+  color: var(--color-terciary);
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 1rem;
+}
+
+.header-instrument {
+  position: relative;
+  display: inline-block;
+}
+
+
+.header-instruments-menu{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.header-instrument:hover .header-instruments-menu {
+  display: block;
+}
