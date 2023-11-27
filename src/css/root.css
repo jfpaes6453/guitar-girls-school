@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+
+:root {
+--color-primary: #0E0C50;
+--color-secondary: #B3F3E0;
+--color-terciary: #4A0D6F;
+--font-title: 700 64px 'Jost', sans-serif;
+--font-paragraph: 400 30px 'Jost', sans-serif;
+--font-subtitleAboutUs: 700 20px 'Jost', sans-serif;
+--font-paragraphAboutUs: 400 14px 'Jost', sans-serif;
+--font-links: 400 16px 'Jost', sans-serif;
+}
+
+* {
+	font-family: 'Jost', sans-serif;
+	text-decoration: none;
+	font-size: 14px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
