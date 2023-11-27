@@ -21,8 +21,8 @@ paso 2: Selecciona "Mostrar notas" para ver todas las notas en el mástil
 paso 3: Pulsa cada nota con el ratón y lista !!!
 
 ## DESAROLLADORAS:
-Carolina Delfa 
-Gabriela Peralta
+[Carolina Delfa 
+[Gabriela Peralta](https://www.linkedin.com/in/gabriela-peralta-b1a5bb29a/)
 [Grecia Landazuri Herrera](https://www.linkedin.com/in/grecialh/)
 [Laura Artaza](https://www.linkedin.com/in/laura-artaza-fullstack-developer/)
 [Stephanie Céspedes](https://www.linkedin.com/in/stephanie-c%C3%A9spedes-40473328b/)
