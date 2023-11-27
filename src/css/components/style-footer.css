@@ -1,0 +1,41 @@
+.footer-container {
+    height: 4rem;
+    background-color: var(--color-primary);
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 2rem;
+    box-sizing: border-box;
+    height: 100%;
+    padding: .5rem;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+
+.footer-icon {
+    color: var(--color-secondary);
+    font-size: 1.25rem;
+}
+
+.footer-icon:hover {
+    color: var(--color-tertiary);
+}
+
+.footer-info {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+
+.footer-email:hover{
+    color: var(--color-tertiary);
+}

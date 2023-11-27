@@ -1,0 +1,62 @@
+.header-nav {
+  height: 6rem;
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-logo-link {
+  width: 10%;
+  height: auto;
+}
+
+.header-logo {
+    width: 80%;
+    height: auto;
+}
+
+.header-links{
+color: var(--color-secondary);
+}
+
+.header-links:hover {
+  color: var(--color-tertiary);
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+  box-sizing: border-box;
+  height: 100%;
+  gap: 1.5rem;
+}
+
+.header-instruments-menu .header-links{
+    color: var(--color-primary);
+}
+
+.header-instruments-menu .header-links:hover{
+    color: var(--color-tertiary);
+}
+
+
+.header-instruments-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: var(--color-secondary); 
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  .header-instruments-menu li {
+    padding: .8rem;
+  }
+  
+  
+  .header-instrumentos:hover .header-instruments-menu {
+    display: block;
+  }
