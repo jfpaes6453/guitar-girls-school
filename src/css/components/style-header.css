@@ -3,12 +3,17 @@
   background-color: var(--color-primary);
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+}
+
+.header-logo-link {
+  width: 10%;
+  height: auto;
 }
 
 .header-logo {
-  width: 35%;
-  height: auto;
-  padding: 1rem;
+    width: 80%;
+    height: auto;
 }
 
 .header-links{
@@ -16,36 +21,42 @@ color: var(--color-secondary);
 }
 
 .header-links:hover {
-  color: var(--color-terciary);
+  color: var(--color-tertiary);
 }
 
 .header-nav-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  max-width: 90%;
-  margin: 0 auto;
+  justify-content: space-around;
+  max-width: 100%;
   box-sizing: border-box;
   height: 100%;
-  padding: 1rem;
+  gap: 1.5rem;
 }
 
-.header-instrument {
-  position: relative;
-  display: inline-block;
+.header-instruments-menu .header-links{
+    color: var(--color-primary);
+}
+
+.header-instruments-menu .header-links:hover{
+    color: var(--color-tertiary);
 }
 
 
-.header-instruments-menu{
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-
-.header-instrument:hover .header-instruments-menu {
-  display: block;
-}
+.header-instruments-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: var(--color-secondary); 
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  .header-instruments-menu li {
+    padding: .8rem;
+  }
+  
+  
+  .header-instrumentos:hover .header-instruments-menu {
+    display: block;
+  }
