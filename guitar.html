@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="guitar.css" />
   </head>
   <body>
-    <div class="control-panel">
+    <section class="control-panel">
       <label for="number-of-frets">Número de trastres: </label>
       <input type="number" id="number-of-frets" min="5" max="30" value="20" />
 
-      <label class= "show-notes" for="show-notes">Mostrar notas: </label>
+      <label class="show-notes" for="show-notes">Mostrar notas: </label>
       <input type="radio" id="show-all-notes" />
-    </div>
+    </section>
     <div class="fretboard">
       <div class="string">
         <div class="note-fret"></div>
@@ -108,6 +108,24 @@
         <div class="note-fret"></div>
       </div>
     </div>
+    <section class="instructions">
+      <article class="select-frets">
+        <p class="instruction-steps">
+          <b>Paso 1:</b><br>Selecciona el n° de trastes en los que quieres tocar
+        </p>
+      </article>
+      <article class="select-notes">
+        <p class="instruction-steps">
+          <b>Paso 2:</b><br>Selecciona "Mostrar notas", para ver todas las notas del mástil</p>
+      </article>
+      <article class="press-notes">
+        <p class="instruction-steps">
+          <b>Paso 3:</b> <br>Pulsa cada nota con el ratón y ahora si, ¡estás list@!</p>
+      </article>
+      <article class="play-song">
+        <p>¡TOCA TU CANCIÓN <br>FAVORITA!</p>
+      </article>
+    </section>
     <script src="./app.js"></script>
   </body>
 </html>
