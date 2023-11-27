@@ -3,13 +3,13 @@
 :root {
 --color-primary: #2D9596;
 --color-secondary: #ECF4D6;
---color-terciary: #265073;
+--color-tertiary: #265073;
 --color-quaternary: #B3F3E0;
---font-title: 700 64px 'Jost', sans-serif;
---font-paragraph: 400 30px 'Jost', sans-serif;
---font-subtitleAboutUs: 700 20px 'Jost', sans-serif;
---font-paragraphAboutUs: 400 14px 'Jost', sans-serif;
---font-links: 400 16px 'Jost', sans-serif;
+--font-title: 700 2rem 'Jost', sans-serif;
+--font-paragraph: 400 1.875rem 'Jost', sans-serif;
+--font-subtitleAboutUs: 700 1.25rem 'Jost', sans-serif;
+--font-paragraphAboutUs: 400 0.875rem 'Jost', sans-serif;
+--font-links: 400 1rem 'Jost', sans-serif;
 }
 
 * {
@@ -21,6 +21,8 @@
 
 a {
     text-decoration: none;
+    color:  var(--color-secondary);
+    font: var(--font-links);
 }
 
 ul {
