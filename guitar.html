@@ -7,15 +7,13 @@
     <link rel="stylesheet" href="guitar.css" />
   </head>
   <body>
-    <label for="number-of-frets">Número de trastres: </label>
-    <input type="number" id="number-of-frets" min="5" max="30" value="20" />
+    <div class="control-panel">
+      <label for="number-of-frets">Número de trastres: </label>
+      <input type="number" id="number-of-frets" min="5" max="30" value="20" />
 
-    <label for="show-all-notes">Muestra todas las notas: </label>
-    <input type="checkbox" id="show-all-notes" />
-
-    <label for="show-multiple-notes">Muestra notas multiples: </label>
-    <input type="checkbox" id="show-multiple-notes" />
-
+      <label class= "show-notes" for="show-notes">Mostrar notas: </label>
+      <input type="radio" id="show-all-notes" />
+    </div>
     <div class="fretboard">
       <div class="string">
         <div class="note-fret"></div>
