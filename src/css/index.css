@@ -1,0 +1,23 @@
+.main-container {
+    background-color: aliceblue;
+
+}
+.main-logo{
+    display: flex;
+    justify-content: center;
+}
+.main-students{
+    border-color: black;
+    display :flex;
+    justify-content: space-around;
+
+}
+
+.main-description{
+    width: 68rem;
+}
+
+.main-icons{
+    display: flex;
+    justify-content: space-around;
+}
