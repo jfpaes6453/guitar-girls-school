@@ -1,11 +1,47 @@
 @import "/src/css/components/style-header.css";
 @import "/src/css/components/style-footer.css";
 
-.main-container {
-  display: flex;
-  align-items: center;
-  width: 90%;
-  margin: 6rem auto;
-  justify-content: center;
+.main-container {  
+    background-color: aliceblue;
 }
 
+.main-logo{
+    display: flex;
+    justify-content: center;
+}
+.main-students{
+    display: flex;
+    justify-content: space-around;    
+}
+
+.main-description{
+    display: flex;
+    justify-content: center;
+}
+
+.main-subtitle{
+    color: #265073;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    padding-left: 11rem;
+    padding-right: 11rem;
+}
+
+.main-text{
+display: flex;
+justify-content: center;
+color: #265073;
+max-width: 80%4 ;
+padding-left: 15rem;
+padding-right: 15rem;
+padding-top: 2rem;
+padding-bottom: 2rem;
+text-align: center;
+font-size: 1.875rem;  
+}
+
+.main-icons{
+    display: flex;
+    justify-content: space-around
+}
