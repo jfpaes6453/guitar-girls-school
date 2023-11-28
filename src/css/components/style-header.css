@@ -57,6 +57,6 @@ color: var(--color-secondary);
   }
   
   
-  .header-instrumentos:hover .header-instruments-menu {
+  .header-instruments:hover .header-instruments-menu {
     display: block;
   }

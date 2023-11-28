@@ -2,7 +2,7 @@
 @import "/src/css/components/style-footer.css";
 
 .main-container {  
-    background-color: aliceblue;
+    background-color: var(--color-quaternary);
 }
 
 .main-logo{
@@ -20,8 +20,8 @@
 }
 
 .main-subtitle{
-    color: #265073;
-    font-size: 3rem;
+    color: var(--color-tertiary);
+    font: var(--font-title);
     display: flex;
     justify-content: center;
     padding-left: 11rem;
@@ -31,17 +31,17 @@
 .main-text{
 display: flex;
 justify-content: center;
-color: #265073;
+color: var(--color-tertiary);
 max-width: 80%4 ;
 padding-left: 15rem;
 padding-right: 15rem;
 padding-top: 2rem;
 padding-bottom: 2rem;
 text-align: center;
-font-size: 1.875rem;  
+font: var(--font-paragraph);
 }
 
 .main-icons{
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
