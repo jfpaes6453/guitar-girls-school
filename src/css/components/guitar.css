@@ -83,7 +83,7 @@ width: 1.25rem;
   border-radius: 50%;
   line-height: 33px;
   text-align: center;
-  /* background: #265073; */
+  background: #265073;
   z-index: 2;
   color: var(--color-quaternary);
 }
