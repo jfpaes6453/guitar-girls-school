@@ -7,8 +7,8 @@
 --color-quaternary: #F8FEFC;
 --font-title: 700 4rem 'Jost', sans-serif;
 --font-paragraph: 400 1.875rem 'Jost', sans-serif;
---font-subtitleAboutUs: 700 1.25rem 'Jost', sans-serif;
---font-paragraphAboutUs: 400 0.875rem 'Jost', sans-serif;
+--font-subtitle: 700 1.25rem 'Jost', sans-serif;
+--font-paragraph2: 400 0.875rem 'Jost', sans-serif;
 --font-links: 400 1rem 'Jost', sans-serif;
 }
 
@@ -28,4 +28,8 @@ a {
 ul {
 display: flex;
 list-style: none;
+}
+
+body{
+background-color: var(--color-quaternary);
 }

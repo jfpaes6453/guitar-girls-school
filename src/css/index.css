@@ -1,10 +1,6 @@
 @import "/src/css/components/style-header.css";
 @import "/src/css/components/style-footer.css";
 
-.main-container {  
-    background-color: var(--color-quaternary);
-}
-
 .main-logo{
     display: flex;
     justify-content: center;
