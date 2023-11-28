@@ -1,26 +1,22 @@
-.main-container {
-    
-    background-color: aliceblue;
-    
-    
-    
+@import "/src/css/components/style-header.css";
+@import "/src/css/components/style-footer.css";
 
+.main-container {  
+    background-color: aliceblue;
 }
+
 .main-logo{
     display: flex;
     justify-content: center;
 }
 .main-students{
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;    
 }
 
 .main-description{
     display: flex;
     justify-content: center;
-    
-
 }
 
 .main-subtitle{
@@ -31,6 +27,7 @@
     padding-left: 11rem;
     padding-right: 11rem;
 }
+
 .main-text{
 display: flex;
 justify-content: center;
@@ -41,12 +38,8 @@ padding-right: 15rem;
 padding-top: 2rem;
 padding-bottom: 2rem;
 text-align: center;
-font-size: 1.875rem;
-
-    
-    
+font-size: 1.875rem;  
 }
-
 
 .main-icons{
     display: flex;
