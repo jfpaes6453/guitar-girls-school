@@ -1,0 +1,34 @@
+@import "/src/css/components/style-header.css";
+@import "/src/css/components/style-footer.css";
+
+.main-description{
+    display: flex;
+    justify-content: center;
+}
+
+.main-subtitle{
+    color: var(--color-tertiary);
+    font: var(--font-title);
+    display: flex;
+    justify-content: center;
+    padding-left: 11rem;
+    padding-right: 11rem;
+}
+
+.main-text{
+display: flex;
+justify-content: center;
+color: var(--color-tertiary);
+max-width: 80%4 ;
+padding-left: 15rem;
+padding-right: 15rem;
+padding-top: 2rem;
+padding-bottom: 2rem;
+text-align: center;
+font: var(--font-paragraph);
+}
+
+.main-icons{
+    display: flex;
+    justify-content: space-around;
+}
