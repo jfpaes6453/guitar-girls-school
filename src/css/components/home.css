@@ -1,13 +1,8 @@
 @import "/src/css/components/style-header.css";
 @import "/src/css/components/style-footer.css";
 
-.main-logo{
-    display: flex;
-    justify-content: center;
-}
-.main-students{
-    display: flex;
-    justify-content: space-around;    
+.hero-section{
+    background-color: red;
 }
 
 .main-description{
