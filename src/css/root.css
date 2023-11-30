@@ -4,19 +4,22 @@
 --color-primary: #2D9596;
 --color-secondary: #ECF4D6;
 --color-tertiary: #265073;
---color-quaternary: #B3F3E0;
---font-title: 700 2rem 'Jost', sans-serif;
+--color-quaternary: #F8FEFC;
+--font-title: 700 4rem 'Jost', sans-serif;
 --font-paragraph: 400 1.875rem 'Jost', sans-serif;
---font-subtitleAboutUs: 700 1.25rem 'Jost', sans-serif;
---font-paragraphAboutUs: 400 0.875rem 'Jost', sans-serif;
+--font-subtitle: 700 1.25rem 'Jost', sans-serif;
+--font-paragraph2: 400 0.875rem 'Jost', sans-serif;
 --font-links: 400 1rem 'Jost', sans-serif;
+
+--font-header-nav: 500 1.5rem 'Jost', sans-serif;
+--font-header-instruments-menu: 500 1rem 'Jost', sans-serif;
 }
 
 * {
 	font-family: 'Jost', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 a {
@@ -28,4 +31,8 @@ a {
 ul {
 display: flex;
 list-style: none;
+}
+
+body{
+background-color: var(--color-quaternary);
 }

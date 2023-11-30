@@ -2,6 +2,8 @@
 @import "/src/css/components/style-footer.css";
 
 
+
+
 /*HERO*/
 .hero-section{
     background-color: var(--color-secondary);
@@ -28,15 +30,18 @@
     align-items: center;
 }
 
+
 .main-logo{
     display: flex;
     justify-content: center;
 }
 
+
 .main-students{
     display: flex;
     justify-content: space-around;    
 }
+
 
 /*DESCRIPTION-CTA*/
 .home-description-section{
@@ -46,6 +51,7 @@
     justify-content: center;
     align-items: center;
 }
+
 
 .home-description-container{
     width: 60%;
@@ -57,6 +63,7 @@
     font-size: 1.5rem;
 }
 
+
 .cta-container{
     width: 30%;
     padding: 15px;
@@ -67,11 +74,15 @@
     border-radius: 10px;
 }
 
+
 .cta-text{
     color: #ECF4D6;
     font-size: 2rem;
     padding-right: 15px;
 }
+
+
+
 
 
 
@@ -111,7 +122,12 @@
 
 
 
+
+
+
+
 /***********************MEDIAQUERIES*********************/
+
 
 @media only screen and (max-width: 576px) {
     .hero-title-logo-container{
@@ -124,7 +140,7 @@
         width: 100%;
         font-size: 1.8rem;
     }
-    
+   
     .hero-logo{
         max-height: 300px;
     }
@@ -138,6 +154,7 @@
         gap: 20px;
     }
 
+
     .home-description-section{
         padding: 10px;
         display: flex;
@@ -146,6 +163,8 @@
         align-items: center;
         gap: 20PX;
     }
+
+
 
 
     .home-instruments-section{
