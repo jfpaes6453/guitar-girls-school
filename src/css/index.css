@@ -7,17 +7,20 @@
     background-color: var(--color-secondary);
 }
 .hero-title-logo-container{
+    padding-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .hero-title{
+    width: 40%;
     font-size: 2.8rem;
     color:#265073;
     text-align: center
 }
-.hero-logo{
-    background-color: ;
+.hero-logo-img{
+   height: 300px;
+   width: 200px;
 }
 .hero-imgs-container{
     display: flex;
@@ -112,16 +115,22 @@
 
 @media only screen and (max-width: 576px) {
     .hero-title-logo-container{
+        padding: 40px 0 10px;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
     }
+    .hero-title{
+        width: 100%;
+        font-size: 1.8rem;
+    }
+    
     .hero-logo{
         max-height: 300px;
     }
     .hero-logo-img{
-        width: 100%;
-        height: 100%;
+        width: 100px;
+        height: 150px;
     }
     .hero-imgs-container{
         display: flex;
