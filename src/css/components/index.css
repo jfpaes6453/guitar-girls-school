@@ -7,40 +7,45 @@
 /*HERO*/
 .hero-section{
     background-color: var(--color-secondary);
+    min-height: 680px;
 }
+
 .hero-title-logo-container{
-    padding-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 70px;
 }
+
 .hero-title{
     width: 40%;
     font-size: 2.8rem;
     color:#265073;
     text-align: center
 }
+
 .hero-logo-img{
    height: 300px;
    width: 200px;
 }
+
 .hero-imgs-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
-
 
 .main-logo{
     display: flex;
     justify-content: center;
 }
 
-
 .main-students{
     display: flex;
     justify-content: space-around;    
 }
+
 
 
 /*DESCRIPTION-CTA*/
@@ -52,17 +57,16 @@
     align-items: center;
 }
 
-
 .home-description-container{
     width: 60%;
     text-align: center;
     padding-bottom: 70px;
 }
+
 .home-description{
     color: #265073;
     font-size: 1.5rem;
 }
-
 
 .cta-container{
     width: 30%;
@@ -74,15 +78,11 @@
     border-radius: 10px;
 }
 
-
 .cta-text{
     color: #ECF4D6;
     font-size: 2rem;
     padding-right: 15px;
 }
-
-
-
 
 
 
@@ -96,18 +96,21 @@
     align-items: center;
     text-align: center;
 }
+
 .intruments-title{
     width: 40%;
     font-size: 2.4rem;
     color: #265073;
     padding-bottom: 60px;
 }
+
 .home-instruments-container{
     width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .instrument-icon-container{
     background-color: #2D9596;
     width: 200px;
@@ -122,23 +125,23 @@
 
 
 
-
-
-
-
 /***********************MEDIAQUERIES*********************/
 
-
 @media only screen and (max-width: 576px) {
+    /*HERO*/
+    .hero-section{
+        background-color: var(--color-secondary);
+        min-height: 1320px;
+    }
     .hero-title-logo-container{
-        padding: 40px 0 10px;
+        padding: 40px 10px 0;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
     }
     .hero-title{
         width: 100%;
-        font-size: 1.8rem;
+        font-size: 2.3rem;
     }
    
     .hero-logo{
@@ -155,19 +158,34 @@
     }
 
 
+
+    /*DESCRIPTION-CTA*/
     .home-description-section{
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20PX;
+        margin-top: 70px;
+        padding: 0 18px;
+    }
+
+    .home-description-container{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .cta-container{
+        width: 80%;
+        padding: 12px;
+    }
+
+    .cta-text{
+        font-size: 1.6rem;
+        padding-right: 15px;
     }
 
 
 
-
+    /*INSTRUMENTS*/
     .home-instruments-section{
+        padding-top: 30px;
+        padding-bottom: 60px;
         margin-top: 100px;
         min-height: 500px;
         background-color: #F1FDF9;
@@ -176,5 +194,16 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        gap: 20px;
+    }
+    .intruments-title{
+        padding: 0 10px;
+        width: 100%;
+        font-size: 2.1rem;
+        color: #265073;
+        padding-bottom: 60px;
+    }
+    footer{
+        display: none;
     }
 }
