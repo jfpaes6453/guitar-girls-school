@@ -37,13 +37,14 @@ color: var(--color-tertiary);
   gap: 1.5rem;
 }
 
+
 .header-instruments-menu .header-links{
   font: var(--font-header-instruments-menu);
-    color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .header-instruments-menu .header-links:hover{
-    color: var(--color-tertiary);
+    color: var(--color-primary);
 }
 
 
@@ -51,13 +52,13 @@ color: var(--color-tertiary);
     display: none;
     position: absolute;
     z-index: 1;
-    background-color: var(--color-secondary); 
+    background-color: var(--color-tertiary); 
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1); 
   }
   
   
   .header-instruments-menu li {
-    padding: .8rem;
+    padding: .4rem;
   }
   
   
