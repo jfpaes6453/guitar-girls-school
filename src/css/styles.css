@@ -1,8 +1,8 @@
-
+/* estilos */
 @import "./root.css";
 @import "./components/style-header.css";
 @import "./components/style-footer.css";
 @import "./components/index.css";
-@import"./components/aboutus.css";
-@import"./components/construction.css";
-@import"./components/guitar.css";
+@import "./components/aboutus.css";
+@import "./components/construction.css";
+@import "./components/guitar.css"; 
