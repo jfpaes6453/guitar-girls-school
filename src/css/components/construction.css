@@ -1,2 +1,82 @@
 @import "/src/css/components/style-header.css";
 @import "/src/css/components/style-footer.css";
+@import "/src/css/root.css";
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+
+.main-title {
+    margin: 1.5rem;
+    font: var(--font-title);
+    color: var(--color-tertiary);
+}
+
+.main-construction-photo {
+    height: 36rem;
+    width: auto;
+    border-radius: 1rem;
+}
+
+.main-construction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-construction-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+    gap: .5rem;
+    color: var(--color-tertiary);
+    font: var(--font-paragraph);
+}
+
+ /*mantener footer abajo */
+/*  html {
+    height:100%
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+
+footer {
+    margin-top: auto;
+}   */
+
+
+
+/* media query movil*/
+
+@media (max-width: 600px) {
+    .main-construction-photo {
+        height: 10rem;
+    }
+
+
+    .main-title {
+        margin: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .main-construction-text {
+        font-size: .937rem;
+    }
+
+    footer{
+        display: none;
+    }
+
+}
