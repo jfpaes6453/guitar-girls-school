@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   font: var(--font-paragraph2);
-  color: #265073;
+  color: var(--color-tertiary);
   width: 30%;
   height: 6.25rem;
   margin: auto;
@@ -70,7 +70,7 @@ width: 1.25rem;
   border-radius: 50%;
   line-height: 33px;
   text-align:  center;
-  background: #265073;
+  background: var(--color-tertiary);
   z-index: 2;
   color: #fff;
   opacity: var(--noteDotOpacity);

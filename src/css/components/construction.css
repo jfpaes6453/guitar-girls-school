@@ -63,11 +63,11 @@ footer {
 
     .main-title {
         margin: 1.5rem;
-        font-size: 2rem;
+        font: var(--font-m-title);
     }
 
     .main-construction-text {
-        font-size: .937rem;
+        font: var(--font-m-text);
     }
 
     footer{
