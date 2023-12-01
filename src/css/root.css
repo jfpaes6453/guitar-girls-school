@@ -6,13 +6,20 @@
 --color-tertiary: #265073;
 --color-quaternary: #F8FEFC;
 --font-title: 700 4rem 'Jost', sans-serif;
---font-paragraph: 400 1.875rem 'Jost', sans-serif;
---font-subtitle: 700 1.25rem 'Jost', sans-serif;
---font-paragraph2: 400 0.875rem 'Jost', sans-serif;
---font-links: 400 1rem 'Jost', sans-serif;
+--font-title2: 700 3.5rem 'Jost', sans-serif;
+--font-button: 500 2.25rem 'jost'.sans-serif;
+--font-paragraph: 400 2.25rem 'Jost', sans-serif;
+--font-paragraph2: 500 1.5rem 'Jost', sans-serif;
+--font-text: 400 1rem 'Jost', sans-serif;
 
---font-header-nav: 500 1.5rem 'Jost', sans-serif;
---font-header-instruments-menu: 500 1rem 'Jost', sans-serif;
+/* version mobile */
+
+--font-m-title: 700 2.5rem 'Jost', sans-serif;
+--font-m-title2: 700 2rem 'Jost', sans-serif;
+--font-m-paragraph: 400 1.5rem 'Jost', sans-serif;
+--font-m-text: 400 .875rem 'Jost', sans-serif;
+
+
 }
 
 * {
@@ -24,15 +31,9 @@
 
 a {
     text-decoration: none;
-    color:  var(--color-secondary);
-    font: var(--font-links);
 }
 
 ul {
 display: flex;
 list-style: none;
-}
-
-body{
-background-color: var(--color-quaternary);
 }
