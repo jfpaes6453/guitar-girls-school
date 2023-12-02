@@ -7,23 +7,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
     showAllNotesInput.addEventListener('click', function() {
         if (!notesVisible) {
-            root.style.setProperty('--noteDotOpacity', '1'); // Mostrar las notas si están ocultas
-            notesVisible = true; // Cambiar el estado a visible
+            root.style.setProperty('--noteDotOpacity', '1'); 
+            notesVisible = true; 
         } else {
-            root.style.setProperty('--noteDotOpacity', '0'); // Ocultar las notas si están visibles
-            notesVisible = false; // Cambiar el estado a oculto
+            root.style.setProperty('--noteDotOpacity', '0'); visibles
+            notesVisible = false;
         }
-        showAllNotesInput.checked = notesVisible; // Actualizar el estado del input radio
+        showAllNotesInput.checked = notesVisible; 
     });
 
     // Establecer la opacidad predeterminada al cargar la página (notas ocultas)
+
     root.style.setProperty('--noteDotOpacity', '0');
 
     const notesFlats = ["C","Db","D","Eb","E","F","Gb","G","Ab","A","Bb","B"];
     const notesSharps = ["C","C#","D","D#","E","F","F#","G","G#","A","A#","B"];
     const guitarTuning = [4,11,7,2,9,4];
     const numberOfFretsInput = document.getElementById("number-of-frets");
-    const numberOfStrings = 6; // Definir el número de cuerdas
+    const numberOfStrings = 6; 
     let accidentals = 'flats';
 
     const app = {
@@ -65,10 +66,9 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     numberOfFretsInput.addEventListener('change', function() {
-        app.setupFretboard(); // Vuelve a generar las notas cuando cambie el número de trastes
+        app.setupFretboard(); 
     });
 
-    // Iniciar la aplicación después de que el DOM esté completamente cargado
     app.init();
 });
 
