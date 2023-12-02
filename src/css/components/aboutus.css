@@ -1,0 +1,47 @@
+.main-container{
+background-color: var(--color-quaternary);
+color: var(--color-tertiary);
+}
+.main-green{
+background-color: var(--color-secondary);
+}
+
+.main-green > h1 {
+font: var(--font-title);
+display: flex;
+justify-content: center;
+}
+
+.main-teachers-guitar, .main-teachers-other{
+display: flex;
+gap: 2rem;
+margin: 4rem;
+}
+
+.main-teacher{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.main-teacher-title{
+font: var(--font-paragraph2);
+}
+
+.vertical-line {
+  width:  2rem;
+  height: .25rem;
+  background-color: var(--color-primary);
+}
+
+
+.main-teacher-description{
+font: var(--font-text);
+text-align: center;
+flex: 1; /* This will make all paragraphs grow and shrink equally */
+  /* Other styles */
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
