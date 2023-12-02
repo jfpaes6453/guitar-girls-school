@@ -19,6 +19,9 @@
 --font-m-paragraph: 400 1.5rem 'Jost', sans-serif;
 --font-m-text: 400 .875rem 'Jost', sans-serif;
 
+/* Guitar specific styles for interactions */
+
+--noteDotOpacity: 1;
 
 }
 
@@ -37,3 +40,6 @@ ul {
 display: flex;
 list-style: none;
 }
+
+
+
