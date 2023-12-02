@@ -84,6 +84,10 @@
     padding-right: 15px;
 }
 
+.home-email-img{
+    width: 50px;
+}
+
 
 
 /*INSTRUMENS*/
@@ -105,7 +109,7 @@
 }
 
 .home-instruments-container{
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -180,13 +184,16 @@
         padding-right: 15px;
     }
 
+    .home-email-img{
+        width: 35px;
+    }
 
 
     /*INSTRUMENTS*/
     .home-instruments-section{
         padding-top: 30px;
         padding-bottom: 60px;
-        margin-top: 100px;
+        margin-top: 62px;
         min-height: 500px;
         background-color: #F1FDF9;
     }
@@ -194,7 +201,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 20px;
+        gap: 50px;
     }
     .intruments-title{
         padding: 0 10px;
