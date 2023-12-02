@@ -7,19 +7,16 @@
 }
 
 .header-logo-link {
-  width: 10%;
-  height: auto;
   display: flex;
   justify-content: center;
 }
 
 .header-logo {
-    width: 70%;
-    height: auto;
+  width: 5rem;
+  height: auto;
 }
-
 .header-links{
-font: var(--font-header-nav);
+font: var(--font-paragraph2);
 color: var(--color-tertiary);
 }
 
@@ -39,7 +36,7 @@ color: var(--color-tertiary);
 
 
 .header-instruments-menu .header-links{
-  font: var(--font-header-instruments-menu);
+  font: var(--font-text2);
   color: var(--color-secondary);
 }
 

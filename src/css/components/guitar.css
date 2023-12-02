@@ -1,6 +1,3 @@
-@import "/src/css/components/style-header.css";
-@import "/src/css/components/style-footer.css";
-@import "/src/css/root.css";
 .show-notes {
   margin-left: 1.5rem;
 }
@@ -9,7 +6,7 @@
   justify-content: center;
   align-items: center;
   font: var(--font-paragraph2);
-  color: #265073;
+  color: var(--color-tertiary);
   width: 30%;
   height: 6.25rem;
   margin: auto;
@@ -67,13 +64,13 @@ width: 1.25rem;
   border-image: linear-gradient(to left, #bbb, #fff, #bbb) 1 100%;
 }
 .note-fret:before {
-  content: "B";
+  content: attr(data-note);
   width: 33px;
   height: 33px;
   border-radius: 50%;
   line-height: 33px;
   text-align:  center;
-  background: #265073;
+  background: var(--color-tertiary);
   z-index: 2;
   color: #fff;
   opacity: var(--noteDotOpacity);
@@ -140,7 +137,6 @@ width: 1.25rem;
   padding: 0 20px 0 20px;
 }
 
-/*
 .play-song {
   color: var(--color-primary);
   margin-top: 60px;
@@ -150,7 +146,7 @@ width: 1.25rem;
   text-align: center;
 }
 
-/* Añadiendo Vibración a las cuerdas
+/* Añadiendo Vibración a las cuerdas */
 
 .note-name-section {
   color: #fff;
@@ -158,7 +154,8 @@ width: 1.25rem;
   text-align: center;
   margin-top: 5px;
 }
-/* ... (otros estilos)
+
+
 @keyframes vibrate {
   0%, 100% {
     transform: translate(0, 0);
@@ -195,4 +192,3 @@ width: 1.25rem;
 .string.vibrating::before {
   animation: vibrate 0.7s infinite ease-in-out;
 }
-*/
