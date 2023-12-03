@@ -1,11 +1,8 @@
 let fretboard = document.querySelector(".fretboard");
 let numberOfFretsInput = document.getElementById("number-of-frets");
 let numberOfFrets = 20;
-<<<<<<< HEAD
 // const singleFretMarkP=[3,5,7,9,15,17,19,21];
 // const doubleFretMarkP=[12,24]
-=======
->>>>>>> e4c4dc7ee8e73ae86a2d2bc8721aaa421dd74222
 
 function addFretToFretBoard() {
     const strings = document.querySelectorAll('.string');
@@ -20,7 +17,6 @@ function addFretToFretBoard() {
             newFret.classList.add('note-fret');
             string.appendChild(newFret);
         }
-<<<<<<< HEAD
         // if (string.children<7) {
         //     if(singleFretMarkP.indexOf!==-1)
         //         const oneFretMark = document.createElement('div');
@@ -48,8 +44,6 @@ function addFretToFretBoard() {
         if(i===0 && singleFretMarkP.indexOf(i) !==-1){
             newFret.classList.add('single-fretmark');
         } */
-=======
->>>>>>> e4c4dc7ee8e73ae86a2d2bc8721aaa421dd74222
     });
 }
 
