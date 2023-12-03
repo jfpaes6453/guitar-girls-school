@@ -49,3 +49,27 @@ text-align: center;
 width: 18rem;
 }
 
+@media (max-width: 600px) {
+.main-green > h1 {
+font: var(--font-m-title);
+}
+.main-teachers-guitar, .main-teachers-other{
+flex-direction: column;
+}
+.main-teacher{
+width: auto;
+gap: 1.5rem;
+margin-bottom: 3rem;
+}
+.main-teacher-title{
+font: var(--font-m-paragraph);
+width: 20rem;
+display: flex;
+justify-content: center;
+}
+
+.main-teacher-description{
+font: var(--font-m-text);
+}
+
+}
