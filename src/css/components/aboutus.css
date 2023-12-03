@@ -1,9 +1,16 @@
-.main-container{
+.main-container-aboutus{
 background-color: var(--color-quaternary);
 color: var(--color-tertiary);
+display: flex;
+flex-direction: column;
+
 }
 .main-green{
 background-color: var(--color-secondary);
+padding: 0 10rem;
+}
+.main-blue{
+padding: 0 10rem;
 }
 
 .main-green > h1 {
@@ -14,14 +21,15 @@ justify-content: center;
 
 .main-teachers-guitar, .main-teachers-other{
 display: flex;
-gap: 2rem;
-margin: 4rem;
+margin: 3rem;
 }
 
 .main-teacher{
 display: flex;
 align-items: center;
 flex-direction: column;
+width: 50rem;
+gap: 1rem;
 }
 
 .main-teacher-title{
@@ -29,7 +37,7 @@ font: var(--font-paragraph2);
 }
 
 .vertical-line {
-  width:  2rem;
+   width:  2rem;
   height: .25rem;
   background-color: var(--color-primary);
 }
@@ -38,10 +46,6 @@ font: var(--font-paragraph2);
 .main-teacher-description{
 font: var(--font-text);
 text-align: center;
-flex: 1; /* This will make all paragraphs grow and shrink equally */
-  /* Other styles */
-  margin: 5px;
-  padding: 10px;
-  border: 1px solid #ccc;
+width: 18rem;
 }
 
