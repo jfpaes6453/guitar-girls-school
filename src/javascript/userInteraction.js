@@ -1,4 +1,3 @@
-// Funciones para mostrar notas en el mástil
 
 document.addEventListener('DOMContentLoaded', function() {
     const showAllNotesInput = document.getElementById("show-all-notes");
@@ -71,4 +70,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Iniciar la aplicación después de que el DOM esté completamente cargado
     app.init();
 });
+
+
 
