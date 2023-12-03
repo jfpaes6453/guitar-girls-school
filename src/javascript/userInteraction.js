@@ -1,4 +1,3 @@
-// Funciones para mostrar notas en el mástil
 
 document.addEventListener('DOMContentLoaded', function() {
     const showAllNotesInput = document.getElementById("show-all-notes");
@@ -7,17 +6,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     showAllNotesInput.addEventListener('click', function() {
         if (!notesVisible) {
-            root.style.setProperty('--noteDotOpacity', '1'); 
-            notesVisible = true; 
+            root.style.setProperty('--noteDotOpacity', '1'); // Mostrar las notas si están ocultas
+            notesVisible = true; // Cambiar el estado a visible
         } else {
-            root.style.setProperty('--noteDotOpacity', '0'); visibles
-            notesVisible = false;
+            root.style.setProperty('--noteDotOpacity', '0'); // Ocultar las notas si están visibles
+            notesVisible = false; // Cambiar el estado a oculto
         }
-        showAllNotesInput.checked = notesVisible; 
+        showAllNotesInput.checked = notesVisible; // Actualizar el estado del input radio
     });
 
     // Establecer la opacidad predeterminada al cargar la página (notas ocultas)
-
     root.style.setProperty('--noteDotOpacity', '0');
 
     const notesFlats = ["C","Db","D","Eb","E","F","Gb","G","Ab","A","Bb","B"];
@@ -66,9 +64,12 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     numberOfFretsInput.addEventListener('change', function() {
-        app.setupFretboard(); 
+        app.setupFretboard(); // Vuelve a generar las notas cuando cambie el número de trastes
     });
 
+    // Iniciar la aplicación después de que el DOM esté completamente cargado
     app.init();
 });
+
+
 
