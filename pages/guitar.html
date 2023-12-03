@@ -5,33 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/f0d88dc543.js" crossorigin="anonymous"></script>
     <title>Guitar</title>
-    <link rel="stylesheet" href="/src/css/components/guitar.css" />
+    <link rel="stylesheet" href="../src/css/styles.css">
   </head>
   <body>
-  <header class="header-container">
-    <nav class="header-nav">
-      <a href="/pages/index.html" class="header-logo-link"><img src="/assets/img/logo-1-guitar-girls.png" alt="logo GuitarGirls" class="header-logo"></a>
-        <ul class="header-nav-list">
-          <li><a href="/pages/index.html" class="header-links">Home</a></li>
-          <li class="header-instruments"><a href="" class="header-links">Instrumentos</a>
-            <ul class="header-instruments-menu">
-              <li><a href="/pages/guitar.html" class="header-links">Guitarra</a></li>
-              <li><a href="/pages/construction.html" class="header-links">Piano</a></li>
-              <li><a href="/pages/construction.html" class="header-links">Batería</a></li>
-              <li><a href="/pages/construction.html" class="header-links">Flauta de Pan</a></li>
+    <header class="header-container">
+        <nav class="header-nav">
+            <a href="../index.html" class="header-logo-link"><img src="../assets/img/dark-logo.svg" alt="logo GuitarGirls"
+                    class="header-logo"></a>
+            <ul class="header-nav-list">
+                <li><a href="../index.html" class="header-links">Home</a></li>
+                <li class="header-instruments"><a href="" class="header-links">Instrumentos</a>
+                    <ul class="header-instruments-menu">
+                        <li><a href="../pages/guitar.html" class="header-links">Guitarra</a></li>
+                        <li><a href="../pages/construction.html" class="header-links">Piano</a></li>
+                        <li><a href="../pages/construction.html" class="header-links">Batería</a></li>
+                        <li><a href="../pages/construction.html" class="header-links">Flauta de Pan</a></li>
+                    </ul>
+                </li>
+                <li><a href="../pages/aboutus.html" class="header-links">Conócenos</a></li>
             </ul>
-          </li>
-          <li><a href="/pages/aboutus.html" class="header-links">Conócenos</a></li>
-        </ul>
-    </nav>
-  </header>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <li><a href="../pages/guitar.html">Guitarra</a></li>
+                <li><a href="../pages/construction.html">Piano</a></li>
+                <li><a href="../pages/construction.html">Batería</a></li>
+                <li><a href="../pages/construction.html">Flauta de Pan</a></li>
+                <li><a href="../pages/aboutus.html">Conócenos</a></li>
+                <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></a></i></li>
+                <li><a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></a></i></li>
+                <li><a href="https://tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></a></i></li>
+                <li><a href="https://spotify.com/" target="_blank"><i class="fa-brands fa-spotify"></a></i></li>
+                <li><a href="https://outlook.live.com/" target="_blank"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
     <section class="control-panel">
       <label for="number-of-frets">Número de trastres: </label>
       <input type="number" id="number-of-frets" min="5" max="30" value="20" />
-
       <label class="show-notes" for="show-notes">Mostrar notas: </label>
       <input type="radio" id="show-all-notes" />
     </section>
+    <!--AUDIO-->
+    <audio id="E1" preload="auto">
+      <source src="https://www.electricherald.com/tuner/1-E.mp3"></source>
+      This browser does not support the HTML5 audio tag.
+      </audio>
+      <!--FIN AUDIO-->
     <div class="fretboard">
       <div class="string">
         <div class="note-fret"></div>
@@ -110,7 +133,7 @@
         <div class="note-fret"></div>
         <div class="note-fret"></div>
       </div>
-      <div class="string">
+      <div class="string string-one">
         <div class="note-fret"></div>
         <div class="note-fret"></div>
         <div class="note-fret"></div>
@@ -140,9 +163,6 @@
         <p class="instruction-steps">
           <b>Paso 3:</b>Pulsa cada nota con el ratón y ahora sí, ¡a tocar!</p>
       </article>
-      <article class="play-song">
-        <p>¡TOCA TU CANCIÓN <br>FAVORITA!</p>
-      </article>
     </section>
     <footer class="footer-container">
         <nav class="footer-nav">
@@ -158,6 +178,8 @@
             </ul>
         </nav>
     </footer>
-    <script src="/src/javascript/app.js"></script>
+    <script src="../src/javascript/stringsVibration.js"></script>
+    <script src="../src/javascript/guitarRepresentation.js"></script>
+    <script src="../src/javascript/userInteraction.js"></script>
   </body>
 </html>

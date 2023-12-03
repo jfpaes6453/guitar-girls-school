@@ -34,9 +34,13 @@
     display: flex;
     justify-content: flex-end;
     gap: 1.5rem;
+    color: var(--color-secondary);
+    font: var(--font-paragraph2);
 }
 
-
+.footer-email{
+    color: var(--color-secondary);
+}
 .footer-email:hover{
     color: var(--color-tertiary);
 }
