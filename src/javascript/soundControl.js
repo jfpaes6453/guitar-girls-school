@@ -29,7 +29,7 @@ function addEventListenersToFretboard(fretboard) {
 // Maneja la interacción con los trastes, ya sea por click o arrastrando el ratón
 function handleFretInteraction(event) {
     if (event.type === 'mouseover' && !(event.buttons === 1 || event.buttons === 3)) {
-        return; // Solo reacciona en 'mouseover' si se está manteniendo presionado el botón del ratón
+        return;
     }
 
     if (isFretElement(event.target)) {

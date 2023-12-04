@@ -192,10 +192,18 @@
         background-color: #F1FDF9;
     }
     .home-instruments-container{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas */
         justify-content: center;
-        gap: 50px;
+        gap: 30px;
+    }
+    .instrument-icon-container{
+        width: 160px;
+        height: 160px;
+
+    }
+    .instrument-icon-container img{
+        width: 100px;
     }
     .intruments-title{
         padding: 0 10px;
