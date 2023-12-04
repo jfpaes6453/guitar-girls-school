@@ -214,6 +214,18 @@ input[type="radio" i] {
     top: 0;
     z-index: 10;
   }
+<<<<<<< HEAD
+=======
+/* Limitar el número de trastes a 12 */
+ .note-fret:nth-child(n+13) {
+   display: none;
+ }
+ .note-fret {
+   width: 2em;
+      height: 100%;
+
+ }
+>>>>>>> 43832f26092b86bd97d2cac2da359b22c8f93e72
 }
 
 @media (max-width: 600px) {
