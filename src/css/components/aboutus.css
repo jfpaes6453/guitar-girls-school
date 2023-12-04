@@ -3,7 +3,6 @@ background-color: var(--color-quaternary);
 color: var(--color-tertiary);
 display: flex;
 flex-direction: column;
-
 }
 .main-green{
 background-color: var(--color-secondary);
@@ -12,18 +11,15 @@ padding: 0 10rem;
 .main-blue{
 padding: 0 10rem;
 }
-
 .main-green > h1 {
 font: var(--font-title);
 display: flex;
 justify-content: center;
 }
-
 .main-teachers-guitar, .main-teachers-other{
 display: flex;
-margin: 3rem;
+margin: 3rem 3rem 3rem 0rem;
 }
-
 .main-teacher{
 display: flex;
 align-items: center;
@@ -31,20 +27,18 @@ flex-direction: column;
 width: 50rem;
 gap: 1rem;
 }
-
 .main-teacher-title{
 font: var(--font-paragraph2);
 width: 20rem;
 text-align: center;
+width: 20rem;
+text-align: center;
 }
-
 .vertical-line {
   width:  2rem;
   height: .25rem;
   background-color: var(--color-primary);
 }
-
-
 .main-teacher-description{
 font: var(--font-text);
 text-align: center;
@@ -69,7 +63,6 @@ display: flex;
 justify-content: center;
 font: var(--font-m-paragraph);
 }
-
 .main-teacher-description{
 font: var(--font-m-text);
 width: 40rem;
