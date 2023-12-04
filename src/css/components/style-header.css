@@ -3,7 +3,7 @@
 }
 
 .header-nav {
-  height: 4rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -20,7 +20,7 @@
 }
 
 .header-links {
-  font: var(--font-paragraph2);
+  font: var(--font-text);
   color: var(--color-tertiary);
 }
 
