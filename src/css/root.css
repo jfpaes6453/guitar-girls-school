@@ -42,4 +42,8 @@ list-style: none;
 }
 
 
-
+@media (max-width:926px){
+    footer{
+        display: none;
+    }
+}
