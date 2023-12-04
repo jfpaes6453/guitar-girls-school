@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="../src/css/styles.css">
   </head>
   <body>
-    <header class="header-container">
+    <header class="header-container" id="header-guitar">
         <nav class="header-nav">
-            <a href="../index.html" class="header-logo-link"><img src="../assets/img/dark-logo.svg" alt="logo GuitarGirls"
-                    class="header-logo"></a>
+            <div>
+                <a href="../index.html" class="header-logo-link"><img src="../assets/img/dark-logo.svg" alt="logo GuitarGirls"
+                        class="header-logo"></a>
+                <a href="../pages/aboutus.html" class="header-links" id="mobile-horizontal">Conócenos</a>
+            </div>
             <ul class="header-nav-list">
                 <li><a href="../index.html" class="header-links">Home</a></li>
                 <li class="header-instruments"><a href="" class="header-links">Instrumentos</a>
@@ -29,11 +32,10 @@
                 <div class='menu-button'></div>
             </label>
             <ul class="menu">
-                <li><a href="../pages/guitar.html">Guitarra</a></li>
                 <li><a href="../pages/construction.html">Piano</a></li>
                 <li><a href="../pages/construction.html">Batería</a></li>
                 <li><a href="../pages/construction.html">Flauta de Pan</a></li>
-                <li><a href="../pages/aboutus.html">Conócenos</a></li>
+                <li id="mobile-vertical"><a href="../pages/aboutus.html">Conócenos</a></li>
                 <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></a></i></li>
                 <li><a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></a></i></li>
                 <li><a href="https://tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></a></i></li>
@@ -43,8 +45,10 @@
         </nav>
     </header>
 
+    <p class="screen-rotation">Cambia la orientación de pantalla para tocar la guitarra</p>
+    <main class="main-container-guitar">
     <section class="control-panel">
-      <label for="number-of-frets">Número de trastres: </label>
+      <label for="number-of-frets">Número de trastes: </label>
       <input type="number" id="number-of-frets" min="5" max="30" value="20" />
       <label class="show-notes" for="show-notes">Mostrar notas: </label>
       <input type="radio" id="show-all-notes" />
@@ -158,6 +162,7 @@
           <b>Paso 3:</b>Pulsa cada nota con el ratón y ahora sí, ¡a tocar!</p>
       </article>
     </section>
+    </main>
     <footer class="footer-container">
         <nav class="footer-nav">
             <ul class="footer-icons">
@@ -172,6 +177,7 @@
             </ul>
         </nav>
     </footer>
+    <script src="../src/javascript/soundControl.js"></script>
     <script src="../src/javascript/stringsVibration.js"></script>
     <script src="../src/javascript/guitarRepresentation.js"></script>
     <script src="../src/javascript/userInteraction.js"></script>

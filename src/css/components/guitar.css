@@ -145,7 +145,6 @@ width: 1.25rem;
   font-size: 1rem;
 }
 
-
 .play-song {
   color: var(--color-primary);
   margin-top: 60px;
@@ -203,29 +202,49 @@ width: 1.25rem;
   animation: vibrate 0.7s infinite ease-in-out;
 }
 
-/* Media queries para dispositivos móviles */
 
-/* Para dispositivos móviles en posición vertical */
-@media only screen and (max-width: 600px) and (orientation: portrait) {
-  /* Limitar el número de trastes a 5 */
-  .note-fret:nth-child(n+6) {
-      display: none;
-  }
-  .note-fret {
-      width: 1.5em; 
-      height: 100%; 
-      /* Otros estilos que desees modificar para adaptarlos al tamaño reducido */
-  }
+.screen-rotation {
+  display: none;
 }
 
-/* Para dispositivos móviles en posición horizontal */
-@media only screen and (max-width: 800px) and (orientation: landscape) {
-  /* Limitar el número de trastes a 12 */
-  .note-fret:nth-child(n+13) {
-      display: none;
+
+@media (max-width:932px) {
+  .instructions {
+    display: none;
   }
-  .note-fret {
-      width: 2em; 
-      height: 1em; 
+
+  #header-guitar {
+    position: static;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+  }
+/* Limitar el número de trastes a 12 */
+ .note-fret:nth-child(n+13) {
+   display: none;
+ }
+ .note-fret {
+   width: 2em;
+      height: 100%;
+
+ }
+}
+
+@media (max-width: 600px) {
+  .main-container-guitar {
+    display: none;
+  }
+
+  .screen-rotation {
+    display: flex;
+    text-align: center;
+    font: var(--font-paragraph2);
+    color: var(--color-tertiary);
+    margin: 1rem;
+    margin-top: 50%;
   }
 }
