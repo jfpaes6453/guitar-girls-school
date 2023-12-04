@@ -223,6 +223,15 @@ width: 1.25rem;
     z-index: 10;
   }
 
+  /* Limitar el número de trastes a 12 */
+ .note-fret:nth-child(n+13) {
+   display: none;
+ }
+ .note-fret {
+   width: 2em;
+   height: 100%;
+ }
+
 }
 
 @media (max-width: 600px) {
