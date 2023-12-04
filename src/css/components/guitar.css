@@ -148,6 +148,10 @@ input[type="radio" i] {
   text-align: center;
 }
 
+.mobile-instructions {
+  display: none;
+}
+
 /* Añadiendo Vibración a las cuerdas */
 
 .note-name-section {
@@ -195,12 +199,14 @@ input[type="radio" i] {
   animation: vibrate 0.7s infinite ease-in-out;
 }
 
-.screen-rotation {
-  display: none;
-}
+
 
 @media (max-width: 932px) {
   .instructions {
+    display: none;
+  }
+
+  .mobile-instructions {
     display: none;
   }
 
@@ -214,8 +220,12 @@ input[type="radio" i] {
     top: 0;
     z-index: 10;
   }
-<<<<<<< HEAD
-=======
+
+  .control-panel {
+    width: 90%;
+    height: 3rem;
+  }
+
 /* Limitar el número de trastes a 12 */
  .note-fret:nth-child(n+13) {
    display: none;
@@ -225,23 +235,58 @@ input[type="radio" i] {
       height: 100%;
 
  }
->>>>>>> 43832f26092b86bd97d2cac2da359b22c8f93e72
 }
 
 @media (max-width: 600px) {
+
+  .mobile-instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+.play-time {
+  background-color: #ecf4d6;
+  color: var(--color-tertiary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 30px;
+  margin-top: 30px;
+}
+
+
+.fret-select,
+.note-select,
+.note-press,
+.change-orientation {
+  background-color: #ecf4d6;
+  color: var(--color-tertiary);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 60%;
+  height: 110px;
+  border-radius: 0 30px 30px 30px;
+  margin-top: 30px;
+  padding: 20px;
+}
+.mobile-steps {
+  font-size: 1rem;
+  text-align: center;
+  align-items: center;
+}
+
+.mobile-steps-centerized {
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
   .main-container-guitar {
     display: none;
   }
-
-  .screen-rotation {
-    display: flex;
-    text-align: justify;
-    background-color: #ecf4d6;
-    font: var(--font-paragraph2);
-    color: var(--color-tertiary);
-    margin: 1rem;
-    margin-top: 50%;
-  }
-
   
 }
