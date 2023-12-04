@@ -13,6 +13,7 @@ function vibrateString(string) {
   }, 300);
 }
 
+
 // Agregar un event listener a cada cuerda para activar la vibración al hacer clic
 strings.forEach(string => {
   string.addEventListener('click', () => {
