@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 455955e3b665eed4bac6aac47cf884a9df6bbecd
 document.addEventListener('DOMContentLoaded', function() {
     const showAllNotesInput = document.getElementById("show-all-notes");
     const root = document.documentElement;

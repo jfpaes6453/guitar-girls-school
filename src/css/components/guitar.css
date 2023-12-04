@@ -14,12 +14,9 @@
   margin-top: 2.125rem;
   font-size: 1.4rem;
 }
-
 .control-panel > label{
   font-size: var(--font-text);
-
 }
-
 input[type="number" i] {
   font: var(--font-paragraph2);
   padding-left: .375rem;
@@ -144,7 +141,6 @@ width: 1.25rem;
   padding: 0 15px 0 15px;
   font-size: 1rem;
 }
-
 .play-song {
   color: var(--color-primary);
   margin-top: 60px;
@@ -153,18 +149,13 @@ width: 1.25rem;
   justify-content: center;
   text-align: center;
 }
-
-
 /* Añadiendo Vibración a las cuerdas */
-
 .note-name-section {
   color: #fff;
   font-size: 14px;
   text-align: center;
   margin-top: 5px;
 }
-
-
 @keyframes vibrate {
   0%, 100% {
     transform: translate(0, 0);
@@ -197,48 +188,38 @@ width: 1.25rem;
     transform: translate(-6px, -5px);
   }
 }
-
 .string.vibrating::before {
   animation: vibrate 0.7s infinite ease-in-out;
 }
-
-
 .screen-rotation {
   display: none;
 }
-
-
 @media (max-width:932px) {
   .instructions {
     display: none;
   }
-
   #header-guitar {
     position: static;
   }
-
   .menu {
     display: block;
     position: absolute;
     top: 0;
     z-index: 10;
   }
-/* Limitar el número de trastes a 12 */
+  /* Limitar el número de trastes a 12 */
  .note-fret:nth-child(n+13) {
    display: none;
  }
  .note-fret {
    width: 2em;
-      height: 100%;
-
+   height: 100%;
  }
 }
-
 @media (max-width: 600px) {
   .main-container-guitar {
     display: none;
   }
-
   .screen-rotation {
     display: flex;
     text-align: center;
