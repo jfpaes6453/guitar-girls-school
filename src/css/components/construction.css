@@ -10,6 +10,7 @@
     margin: 1.5rem;
     font: var(--font-title);
     color: var(--color-tertiary);
+    text-align: center;
 }
 
 .main-construction-photo {
@@ -55,11 +56,10 @@ footer {
 
 /* media query movil*/
 
-@media (max-width: 600px) {
+@media (max-width: 932px) {
     .main-construction-photo {
-        height: 10rem;
+        height: 8rem;
     }
-
 
     .main-title {
         margin: 1.5rem;
@@ -68,10 +68,27 @@ footer {
 
     .main-construction-text {
         font: var(--font-m-text);
+        width: 10rem;
+        text-align: center;
     }
 
-    footer{
-        display: none;
+    .main-construction{
+        flex-direction: row;
     }
+}
+
+@media (max-width: 600px) {
+    .main-construction-photo {
+        height: 10rem;
+    }
+
+    .main-construction-text {
+        width: auto;
+    }
+
+    .main-construction {
+        flex-direction: column;
+    }
+
 
 }
