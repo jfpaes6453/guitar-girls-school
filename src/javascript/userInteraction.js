@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function() {
     const showAllNotesInput = document.getElementById("show-all-notes");
     const root = document.documentElement;
