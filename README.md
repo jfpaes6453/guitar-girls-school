@@ -16,6 +16,17 @@ El proyecto cuenta con 4 páginas finalizadas, todas responsive.
   *Cuando se toque una o varias cuerdas, éstas deben vibrar.          
 - una página "En construcción" con el objetivo a medio plazo de desarrollar páginas para poder tocar online el piano, la batería y la flauta de Pan.
 
+## ESTRUCTURA DE ARCHIVOS
+
+index.html: Página principal que presenta la escuela.
+aboutus.html: Página que muestra información sobre las profesoras.
+guitar.html: Página con el instrumento virtual para practicar la guitarra.
+construction.html: Página que indica las futuras implementaciones para otros instrumentos.
+css/: Carpeta que contiene los estilos CSS del proyecto.
+js/: Carpeta que contiene los scripts JavaScript del proyecto.
+assets/: Carpeta que almacena recursos multimedia como imágenes o archivos de audio.
+
+
 ## REQUISITOS TÉCNICOS
 Conexíon a Internet estable
 Navegador web actualizado (Chrome o Safari)
