@@ -57,6 +57,7 @@ font: var(--font-m-title);
 }
 .main-teachers-guitar, .main-teachers-other{
 flex-direction: column;
+margin: 1rem;
 }
 .main-teacher{
 width: auto;
@@ -75,7 +76,7 @@ width: 40rem;
 }
 
 .main-teacher-photo{
-width: 5rem;
+width: 9rem;
 }
 }
 
@@ -92,5 +93,9 @@ width: 18rem;
 
 .main-teacher-photo{
 width: auto;
+}
+
+.main-green > h1 {
+margin-top: 2rem;
 }
 }

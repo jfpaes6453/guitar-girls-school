@@ -1,6 +1,6 @@
 
 .footer-container {
-    height: 4rem;
+    height: 3rem;
     background-color: var(--color-primary);
 }
 
@@ -35,7 +35,7 @@
     justify-content: flex-end;
     gap: 1.5rem;
     color: var(--color-secondary);
-    font: var(--font-paragraph2);
+    font: var(--font-text);
 }
 
 .footer-email{

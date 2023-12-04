@@ -2,19 +2,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
+    height: 100%;
 }
 
 
 .main-title {
     margin: 1.5rem;
-    font: var(--font-title);
+    font: var(--font-title2);
     color: var(--color-tertiary);
     text-align: center;
 }
 
 .main-construction-photo {
-    height: 36rem;
+    height: 23rem;
     width: auto;
     border-radius: 1rem;
 }
@@ -33,26 +33,13 @@
     margin: 1.5rem;
     gap: .5rem;
     color: var(--color-tertiary);
-    font: var(--font-paragraph);
+    font: var(--font-paragraph2);
 }
-
- /*mantener footer abajo */
-/*  html {
-    height:100%
+#footer-construction{
+position: fixed;
+bottom: 0;
+width:100%;
 }
-
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100%;
-}
-
-footer {
-    margin-top: auto;
-}   */
-
-
 
 /* media query movil*/
 
