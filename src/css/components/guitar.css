@@ -223,10 +223,13 @@ input[type="radio" i] {
 
   .screen-rotation {
     display: flex;
-    text-align: center;
+    text-align: justify;
+    background-color: #ecf4d6;
     font: var(--font-paragraph2);
     color: var(--color-tertiary);
     margin: 1rem;
     margin-top: 50%;
   }
+
+  
 }

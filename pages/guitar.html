@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="../src/css/styles.css">
   </head>
   <body>
-    <header class="header-container">
+    <header class="header-container" id="header-guitar">
         <nav class="header-nav">
-            <a href="../index.html" class="header-logo-link"><img src="../assets/img/dark-logo.svg" alt="logo GuitarGirls"
-                    class="header-logo"></a>
+            <div>
+                <a href="../index.html" class="header-logo-link"><img src="../assets/img/dark-logo.svg" alt="logo GuitarGirls"
+                        class="header-logo"></a>
+                <a href="../pages/aboutus.html" class="header-links" id="mobile-horizontal">Conócenos</a>
+            </div>
             <ul class="header-nav-list">
                 <li><a href="../index.html" class="header-links">Home</a></li>
                 <li class="header-instruments"><a href="" class="header-links">Instrumentos</a>
@@ -29,11 +32,10 @@
                 <div class='menu-button'></div>
             </label>
             <ul class="menu">
-                <li><a href="../pages/guitar.html">Guitarra</a></li>
                 <li><a href="../pages/construction.html">Piano</a></li>
                 <li><a href="../pages/construction.html">Batería</a></li>
                 <li><a href="../pages/construction.html">Flauta de Pan</a></li>
-                <li><a href="../pages/aboutus.html">Conócenos</a></li>
+                <li id="mobile-vertical"><a href="../pages/aboutus.html">Conócenos</a></li>
                 <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></a></i></li>
                 <li><a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></a></i></li>
                 <li><a href="https://tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></a></i></li>
@@ -42,12 +44,21 @@
             </ul>
         </nav>
     </header>
+
+  
+    <main class="main-container-guitar">
     <section class="control-panel">
-      <label for="number-of-frets">Número de trastres: </label>
+      <label for="number-of-frets">Número de trastes: </label>
       <input type="number" id="number-of-frets" min="5" max="30" value="20" />
       <label class="show-notes" for="show-notes">Mostrar notas: </label>
       <input type="radio" id="show-all-notes" />
     </section>
+    <!--AUDIO-->
+    <audio id="E1" preload="auto">
+      <source src="https://www.electricherald.com/tuner/1-E.mp3"></source>
+      This browser does not support the HTML5 audio tag.
+      </audio>
+      <!--FIN AUDIO-->
     <div class="fretboard">
       <div class="string">
         <div class="note-fret"></div>
@@ -126,7 +137,7 @@
         <div class="note-fret"></div>
         <div class="note-fret"></div>
       </div>
-      <div class="string">
+      <div class="string string-one">
         <div class="note-fret"></div>
         <div class="note-fret"></div>
         <div class="note-fret"></div>
@@ -150,13 +161,35 @@
       </article>
       <article class="select-notes">
         <p class="instruction-steps">
-        Selecciona "Mostrar notas", para ver todas las notas del mástil</p>
+        Selecciona "Mostrar notas" para ver todas las notas del mástil</p>
       </article>
       <article class="press-notes">
         <p class="instruction-steps">
         Pulsa cada nota con el ratón y ahora sí, ¡toca tu canción favorita!</p>
       </article>
     </section>
+
+    <section class="mobile-instructions">
+      <article class="fret-select">
+        <p class="mobile-steps">
+        Selecciona el número de trastes en los que quieres tocar
+        </p>
+      </article>
+      <article class="note-select">
+        <p class="mobile-steps">
+        Selecciona "Mostrar notas" para ver todas las notas del mástil</p>
+      </article>
+      <article class="note-press">
+        <p class="mobile-steps">
+        Pulsa las notas para que suenen</p>
+      </article>
+      <article class="change-orientation">
+        <p class="mobile-steps">
+        Ahora, ¡cambia la orientación de pantalla para tocar la guitarra!</p>
+      </article>
+    </section>
+    
+    </main>
     <footer class="footer-container">
         <nav class="footer-nav">
             <ul class="footer-icons">
