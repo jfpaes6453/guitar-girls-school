@@ -3,8 +3,8 @@ background-color: var(--color-quaternary);
 color: var(--color-tertiary);
 display: flex;
 flex-direction: column;
-
 }
+
 .main-green{
 background-color: var(--color-secondary);
 padding: 0 10rem;
@@ -21,7 +21,7 @@ justify-content: center;
 
 .main-teachers-guitar, .main-teachers-other{
 display: flex;
-margin: 3rem;
+margin: 3rem 3rem 3rem 0rem; 
 }
 
 .main-teacher{
