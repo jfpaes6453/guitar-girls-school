@@ -52,6 +52,7 @@
   width: 18rem;
 }
 
+
 @media (max-width: 932px) {
   .main-green>h1 {
     font: var(--font-m-title);
@@ -84,6 +85,7 @@
     width: 9rem;
   }
 }
+
 
 @media (max-width: 600px) {
   .main-teacher {
