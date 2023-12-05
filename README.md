@@ -31,7 +31,13 @@ El proyecto cuenta con 4 páginas finalizadas, todas responsive.
 + HTML
 + CSS
 + Javascript
-+ Vitest v0.34.6 
++ Vitest v0.34.6
+
+## [SCREENSHOT GUITARRA]
+<img src="https://github.com/jfpaes6453/guitar-girls-school/blob/main/assets/img/screenshot%20guitarra%20GuitarGirls.png">
+
+
+
 
 
 ## INSTRUCCIONES PASO A PASO para tocar nuestra GUITARRA virtual:
