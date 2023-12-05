@@ -13,8 +13,6 @@ describe("page home test", () => {
         })
         window = dom.window
         document = dom.window.document
-        button = document.querySelector(".container-home__hero-text-block__primary-button");
-        buttonInstrument = document.querySelector(".green .container-home__gallery__row__card__secondary-button");
     })
     it("Spotify icon should link to Spotify landing page", () => {
         let iconSpotify = document.querySelector("#footer-icon-spotify")
