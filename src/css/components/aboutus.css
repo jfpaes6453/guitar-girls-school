@@ -10,6 +10,7 @@ padding: 0 10rem;
 }
 
 .main-blue {
+  background-color: var(--color-quaternary);
   padding: 0 10rem;
 }
 
@@ -34,8 +35,7 @@ margin: 3rem 3rem 3rem 0rem;
 font: var(--font-paragraph2);
 width: 20rem;
 text-align: center;
-width: 20rem;
-text-align: center;
+
 }
 
 .vertical-line {
