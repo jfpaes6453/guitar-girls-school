@@ -18,21 +18,25 @@ El proyecto cuenta con 4 páginas finalizadas, todas responsive.
 
 ## ESTRUCTURA DE ARCHIVOS
 
-index.html: Página principal que presenta la escuela.
-aboutus.html: Página que muestra información sobre las profesoras.
-guitar.html: Página con el instrumento virtual para practicar la guitarra.
-construction.html: Página que indica las futuras implementaciones para otros instrumentos.
-css/: Carpeta que contiene los estilos CSS del proyecto.
-js/: Carpeta que contiene los scripts JavaScript del proyecto.
-assets/: Carpeta que almacena recursos multimedia como imágenes o archivos de audio.
++ index.html: Página principal que presenta la escuela.
++ aboutus.html: Página que muestra información sobre las profesoras.
++ guitar.html: Página con el instrumento virtual para practicar la guitarra.
++ construction.html: Página que indica las futuras implementaciones para otros instrumentos.
++ css/: Carpeta que contiene los estilos CSS del proyecto.
++ js/: Carpeta que contiene los scripts JavaScript del proyecto.
++ assets/: Carpeta que almacena recursos multimedia como imágenes o archivos de audio.
 
 
-## REQUISITOS TÉCNICOS
-Conexíon a Internet estable
-Navegador web actualizado (Chrome o Safari)
-Altavoces o auriculares
+## TECNOLOGÍAS EMPLEADAS
++ HTML
++ CSS
++ Javascript
++ Vitest v0.34.6 
+
 
 ## INSTRUCCIONES PASO A PASO para tocar nuestra GUITARRA virtual:
+
+Se necesitan una conexíon a Internet estable, un navegador web actualizado (Chrome o Safari) y unos altavoces o auriculares
 1. Selecciona el número de trastes en los que quieres tocar
 1. Selecciona "Mostrar notas" para ver todas las notas en el mástil
 1. Pulsa cada nota con el ratón y lista !!!
